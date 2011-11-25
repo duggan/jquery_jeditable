@@ -237,6 +237,8 @@
                 content.apply(form, [input_content, settings, self]);
 
                 input.attr('name', settings.name);
+                
+                input.attr('maxlength', settings.maxlength);
         
                 /* Add buttons to the form. */
                 buttons.apply(form, [settings, self]);
